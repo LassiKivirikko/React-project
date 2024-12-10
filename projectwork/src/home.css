@@ -1,0 +1,104 @@
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    background-color: #49416D;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tag {
+    padding: 5px 10px;
+    border: 1px solid #A1CCA1;
+    border-radius: 4px;
+    background-color: #8C92AC;
+    cursor: pointer;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 60px;
+    margin-left: 15px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.home-container h1 {
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+
+.add-task {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 20%;
+    margin-left: auto;
+    margin-right: 150px;
+}
+
+.add-task button {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.add-task input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+.add-tag {
+    margin-left: 50px;
+}
+
+.add-tag input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+.add-tag button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.tag-delete {
+    margin-left: 50px;
+}
+
+.tag-delete button {
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
